@@ -548,7 +548,7 @@ a.my-cv-p:hover {
 .exps-container{
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 80%;
     margin-left:5%;
     justify-content:space-around ;
 }
@@ -791,7 +791,7 @@ a.my-cv-p:hover {
 
 @media  (max-width:299px){
     .exps-container{
-        width: 100%;
+        width: 99%;
         margin: 0 auto;
     }
     .ieee-exp-div{
@@ -921,7 +921,7 @@ a.my-cv-p:hover {
 }
 @media (min-width:500px) and (max-width:819px){
     .exps-container{
-        width: 100%;
+        width: 95%;
         margin: 0 auto;
     }
     .ieee-exp-div{
@@ -991,7 +991,7 @@ a.my-cv-p:hover {
 }
 @media (min-width:819.1px) and (max-width:1100px){
     .exps-container{
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
     }
     .ieee-exp-div{
@@ -1058,7 +1058,7 @@ a.my-cv-p:hover {
 }
 @media (min-width:1100.1px){
     .exps-container{
-        width: 100%;
+        width: 92%;
         margin: 0 auto;
     }
     .ieee-exp-div{
@@ -1077,7 +1077,7 @@ a.my-cv-p:hover {
     }
     .asp-net-exp-div{
         width: calc(97%/4);
-        background-size: cover;
+        background-size: contain;
     }
     .asp-net-exp-div:hover{
         width: calc(97%/4);
